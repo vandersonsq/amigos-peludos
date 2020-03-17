@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campanha animais estimação</title>
+	<link rel="stylesheet" type="text/css" href="styles/my_style.css">
+</head>
+<script src="js.jquery.js"> </script>
+<body>
+	<div id="clickMe">
+		Mostre me o amigo peludo do dia
+	</div>
+	<div id="picframe">
+		<img src="images/javali.jpg">
+		<div id="amigo">
+			O nosso amigo do dia é o Javali
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#clickMe").click(function(){
+				$("img").fadeIn(1000);
+				$("#picframe").slideToggle("slow");
+			});
+		});
+	</script>
+	
+
+</body>
+</html>
