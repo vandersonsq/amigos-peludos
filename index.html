@@ -2,20 +2,40 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Campanha animais estimação</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel="stylesheet" type="text/css" href="styles/my_style.css">
+	<link rel="icon" href="images/iconSite.png" type="image/x-icon">
+	<title>Nossos animais</title>
 </head>
 <script src="js.jquery.js"> </script>
 <body>
-	<div id="clickMe">
-		Mostre me o amigo peludo do dia
-	</div>
-	<div id="picframe">
-		<img src="images/cachorro.png">
-		<div id="amigo">
-			O nosso amigo do dia é o cachorro
+	<div class="container">
+		<h1 id="myHeader">
+			Campanha animais de estimação
+		</h1>
+		<div id="clickMe">
+			Mostre-me o amigo peludo do dia
 		</div>
+		<div id="picframe">
+			<br><br><br><br><br><br>
+			<img src="images/cachorro.png">
+			<div id="amigo">
+				O nosso amigo do dia é o cachorro
+			</div>
+		</div>	
 	</div>
+	
+	<div id="info">
+			<p>
+				Um animal de estimação (ou mascote) é um animal doméstico selecionado para o convívio com os seres humanos por questões de companheirismo ou divertimento, o que não significa que essa seja a única função dessas espécies na nossa sociedade
+			</p>
+			<p>
+				Segundo pesquisas realizadas por instituições norte-americanas, os peixes de aquário consistem nos animais de estimação mais populares do mundo. Em segundo colocado está o gato e em terceiro os cães.
+
+				Dados censitários apontam que nos EUA existem mais gatos domésticos do que cachorros.
+			</p>		
+	</div>
+	
 	<script src="js/jquery.js"></script>
 	<script>
 		$(document).ready(function(){

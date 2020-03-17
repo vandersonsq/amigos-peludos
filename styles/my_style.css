@@ -7,8 +7,10 @@
 	border: 2px solid #000
 	border-radius: 200px;
 	font-family: Arial;
-	font-size: 20px;
+	font-size: 25px;
 	font-style: oblique;
+	position: absolute;
+	z-index: 9999;
 }
 #picframe{
 	background:#D8B36E;
@@ -18,11 +20,32 @@
 	display: none;
 	border: 2px solid #000
 	border-radius: 200px;
+	position: absolute;
 }
 #picframe img{
 	width: 205px;
 }
 #amigo{
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 12px;
+}
+#info{
+	height: 100px;
+	text-align: justify;
+	text-indent: 5%;
+	padding: 0% 25%;
+  	top: 130px;
+  	left: 80px;
+}
+#info p{
+	font-size: 22px;
+}
+#myHeader {
+  color: black;
+  padding: 40px;
+  text-align: center;
+
+  border-radius: 47px;
+  background: #179dee;
+  box-shadow: inset 12px 12px 24px #0e6396,inset -12px -12px 24px #20d7ff;
 }
