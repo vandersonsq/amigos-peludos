@@ -1,13 +1,18 @@
+body{
+	background: #FFFFFF url("../images/animais.jpg") no-repeat right top fixed;
+}
+
 #clickMe{
 	background:#D8B36E;
 	padding: 20px;
 	text-align: center;
-	width: 205px;
+	width: 250px;
 	display: block;
 	border: 2px solid #000
-	border-radius: 200px;
+	border-radius: 250px;
 	font-family: Arial;
 	font-size: 25px;
+	color: white;
 	font-style: oblique;
 	position: absolute;
 	z-index: 9999;
@@ -16,18 +21,19 @@
 	background:#D8B36E;
 	padding: 20px;
 	text-align: center;
-	width: 205px;
+	width: 250px;
 	display: none;
 	border: 2px solid #000
-	border-radius: 200px;
+	border-radius: 250px;
 	position: absolute;
 }
 #picframe img{
-	width: 205px;
+	width: 250px;
 }
 #amigo{
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 20px;
+	color: white;
 }
 #info{
 	height: 100px;
@@ -39,12 +45,12 @@
 }
 #info p{
 	font-size: 22px;
+	color: white;
 }
 #myHeader {
   color: black;
-  padding: 40px;
+  padding: 22px;
   text-align: center;
-
   border-radius: 47px;
   background: #179dee;
   box-shadow: inset 12px 12px 24px #0e6396,inset -12px -12px 24px #20d7ff;
