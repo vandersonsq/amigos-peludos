@@ -1,7 +1,7 @@
 body{
-	background: #FFFFFF url("../images/animais.jpg") no-repeat right top fixed;
+	background: #FFFFFF url("../images/animais.jpg") no-repeat center top fixed;
+	max-height: 2000px;
 }
-
 #clickMe{
 	background:#D8B36E;
 	padding: 20px;
