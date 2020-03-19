@@ -1,6 +1,6 @@
 body{
-	background: #FFFFFF url("../images/animais.jpg") no-repeat center top fixed;
-	max-height: 2000px;
+	background: #FFFFFF url("../images/animais.jpg") no-repeat left top fixed;
+	max-width: 2000px;
 }
 #clickMe{
 	background:#D8B36E;
@@ -37,15 +37,32 @@ body{
 }
 #info{
 	height: 100px;
-	text-align: justify;
 	text-indent: 5%;
-	padding: 0% 25%;
+	padding: 0% 20%;
   	top: 130px;
-  	left: 80px;
+  	left: 5px;
+  	right: 20px;
 }
-#info p{
+#info strong p {
 	font-size: 22px;
 	color: white;
+}
+#info p {
+	font-size: 22px;
+	color: white;
+	text-align: justify;
+}
+#info p img{
+	padding-right: 12px;
+}
+#info img {
+	text-align: center;
+	padding-right: 0px 100px;
+}
+#pagamentos{
+	font-size: 22px;
+	color: white;
+	text-align: center;
 }
 #myHeader {
   color: black;
@@ -54,4 +71,10 @@ body{
   border-radius: 47px;
   background: #179dee;
   box-shadow: inset 12px 12px 24px #0e6396,inset -12px -12px 24px #20d7ff;
+}
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 16px;
 }
